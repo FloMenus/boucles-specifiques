@@ -55,30 +55,100 @@
 
 // 5 - Cakes
 
-let cakes = [
-	{
-		name: "cake",
-		flavor: "vanilla",
-		status: "available"
-	},
-	{
-		name: "brownie",
-		flavor: "chocolate",
-		status: "available"
-	},
-	{
-		name: "pie",
-		flavor: "strawberry",
-		status: "available"
-	},
-	{
-		name: "muffin",
-		flavor: "pistachio",
-		status: "available"
-	},
-	{
-		name: "donut",
-		flavor: "chocolate",
-		status: "available"
-	},
-]
+// let cakes = [
+// 	{
+// 		name: "cake",
+// 		flavor: "vanilla",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "brownie",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "pie",
+// 		flavor: "strawberry",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "muffin",
+// 		flavor: "pistachio",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "donut",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// ]
+
+// let chocolateCakes = cakes.filter((cake, i) => {
+//     return cake.flavor === "chocolate"
+// })
+
+// console.log (chocolateCakes)
+
+// let chocolateCakesSoldOut = chocolateCakes.map((chocoCake) => {
+//     return chocoCake.status = 'Sold out !'
+// })
+
+// console.log (chocolateCakesSoldOut)
+
+// 6- Cake v2 
+
+// let cakes = [
+// 	{
+// 		name: "cake",
+// 		flavor: "vanilla",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "brownie",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "pie",
+// 		flavor: "strawberry",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "muffin",
+// 		flavor: "pistachio",
+// 		status: "available"
+// 	},
+// 	{
+// 		name: "donut",
+// 		flavor: "chocolate",
+// 		status: "available"
+// 	},
+// ]
+
+// let pieCake = cakes.find((cake, i) => {
+//     return cake.name = "pie"
+// })
+
+// console.log (pieCake)
+
+// 7 - Factorielle ForEach
+
+// const factor = 9
+
+// let factorised = factor.forEach((num, i) => {
+
+// })
+
+// 8 - Chess board
+
+
+
+// 9 - Filter
+
+// let array = [12, 55, "hello", true, { isStudent: false }, 3]
+
+// let filteredArray = array.filter(element =>{
+//     return parseInt(element)
+// })
+
+// console.log (filteredArray)
