@@ -8,6 +8,8 @@
 
 // console.log (doubles)
 
+//////////////////////////////////////////////////////////////
+
 // 2 - Map Names
 
 // let longNames = [
@@ -33,6 +35,8 @@
 
 // console.log (shortNames)
 
+//////////////////////////////////////////////////////////////
+
 // 3 - Filter Numbers
 
 // let array = [1, "Toto", 34, "JavaScript", 8]
@@ -42,6 +46,8 @@
 // })
 
 // console.log (number)
+
+//////////////////////////////////////////////////////////////
 
 // 4 - Filter Even
 
@@ -53,7 +59,9 @@
 
 // console.log (even)
 
-// 5 - Cakes
+//////////////////////////////////////////////////////////////
+
+//  5 - Cakes
 
 // let cakes = [
 // 	{
@@ -89,11 +97,14 @@
 
 // console.log (chocolateCakes)
 
+
 // let chocolateCakesSoldOut = chocolateCakes.map((chocoCake) => {
 //     return chocoCake.status = 'Sold out !'
 // })
 
-// console.log (chocolateCakesSoldOut)
+// console.log (chocolateCakes)
+
+//////////////////////////////////////////////////////////////
 
 // 6- Cake v2 
 
@@ -131,17 +142,24 @@
 
 // console.log (pieCake)
 
-// 7 - Factorielle ForEach
+////////////////////////////////////////////////////////
 
-// const factor = 9
+// 7 - Factorielle ForEach (PAS FINI)
 
-// let factorised = factor.forEach((num, i) => {
+// let factorielle = [0, 1, 2, 3, 4, 5, 6, 7]
 
+// let factorisation = factorielle.forEach ((num, i) => {
+//     num*=i
+//     return num
 // })
 
-// 8 - Chess board
+// // console.log (factorisation)
 
+//////////////////////////////////////////////////////////////
 
+// 8 - Chess board (PAS FAIT)
+
+//////////////////////////////////////////////////////
 
 // 9 - Filter
 
